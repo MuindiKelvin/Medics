@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Medilab HealthCare Services</title>
+  <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Open+Sans|Raleway|Candal">
+  <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  
+</head>
+
+
+
+<div class="collapse navbar-collapse navbar-right" id="myNavbar">
+              <ul class="nav navbar-nav">
+                <li class="active"><a href="index.html">Home</a></li>
+              </ul>
+            </div>
+
+<form>
+  <input type="button"value="Print This Page" onclick="window.print()" />
+<!--contact-->
+  <section id="contact" class="section-padding">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <h2 class="ser-title">Contact us</h2>
+          <hr class="botm-line">
+        </div>
+        <div class="col-md-4 col-sm-4">
+          <h3>Contact Info</h3>
+          <div class="space"></div>
+          <p><i class="fa fa-map-marker fa-fw pull-left fa-2x"></i>Medilab HealthCare<br> Nairobi, Moi Avenue</p>
+          <div class="space"></div>
+          <p><i class="fa fa-envelope-o fa-fw pull-left fa-2x"></i>info@medilabhealthcareteam.com</p>
+          <div class="space"></div>
+          <p><i class="fa fa-phone fa-fw pull-left fa-2x"></i>+254 700 873 876 or +254 700 873 872 <br>or +254 700 873 675 </p>
+        </div>
+        <div class="col-md-8 col-sm-8 marb20">
+          <div class="contact-info">
+            <h3 class="cnt-ttl">Report An Accident</h3>
+            <div class="space"></div>
+            <div id="sendmessage">Your message has been sent. Thank you!</div>
+            <div id="errormessage"></div>
+
+            <form action="register.php" method="post" role="form" class="contactForm">
+              
+              <div class="form-group">
+                <input type="text" name="name" class="form-control br-radius-zero" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
+                <div class="validation"></div>
+              </div>
+               
+               <div class="form-group">
+                <input type="email" class="form-control br-radius-zero" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email" />
+                <div class="validation"></div>
+              </div>
+
+              <div class="form-group">
+                <input type="text" class="form-control br-radius-zero" name="phone" id="phone" placeholder="Your phone number" data-rule="phone" data-msg="Please enter a valid phone number" />
+                <div class="validation"></div>
+              </div>
+
+              <div class="form-group">
+                <input type="text" class="form-control br-radius-zero" name="subject" id="subject" placeholder="Subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
+                <div class="validation"></div>
+              </div>
+              <div class="form-group">
+                <textarea class="form-control br-radius-zero" name="message" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>
+                <div class="validation"></div>
+              </div>
+              
+
+                <div class="form-group">
+ <div class="select">
+County
+<select name="county">
+  <option>--select county--</option>
+  <option>Baringo</option>
+  <option>Bomet</option>
+  <option>Bungoma</option>
+  <option>Busia</option>
+    <option>Elgeyo Marakwet</option>
+    <option>Embu</option>
+    <option>Garissa</option>
+    <option>Homa Bay</option>
+    <option>Isiolo</option>
+    <option>Kajiado</option>
+    <option>Kakamega</option>
+    <option>Kericho</option>
+    <option>Kiambu</option>
+    <option>Kilifi</option>
+    <option>Kirinyaga</option>
+    <option>Kisii</option>
+    <option>Kisumu</option>
+    <option>Kitui</option>
+    <option>Kwale</option>
+    <option>Laikipia</option>
+    <option>Lamu</option>
+    <option>Machakos</option>
+    <option>Makueni</option>
+    <option>Mandera</option>
+    <option>Meru</option>
+    <option>Migori</option>
+    <option>Marsabit</option>
+    <option>Mombasa</option>
+    <option>Muranga</option>
+    <option>Nairobi</option>
+    <option>Nakuru</option>
+    <option>Nandi</option>
+    <option>Narok</option>
+    <option>Nyamira</option>
+    <option>Nyandarua</option>
+    <option>Nyeri</option>
+    <option>Samburu</option>
+    <option>Siaya</option>
+    <option>Taita Taveta</option>
+    <option>Tana River</option>
+    <option>Tharaka Nithi</option>
+    <option>Trans-Nzoia</option>
+    <option>Turkana</option>
+    <option>Uasin Gishu</option>
+    <option>Vihiga</option>
+    <option>Wajir</option>
+    <option>West Pokot</option>
+        </select>
+      </div>
+       <br>
+
+              <div class="form-action">
+                <button type="submit" class="btn btn-form">Send Message</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--/ contact-->
+  <!--footer-->
+  <footer id="footer">
+    <div class="top-footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4 col-sm-4 marb20">
+            <div class="ftr-tle">
+              <h4 class="white no-padding">About Us</h4>
+            </div>
+            <div class="info-sec">
+              <p>We are committed to deliver the required Health Services with proper standards.</p>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-4 marb20">
+            <div class="ftr-tle">
+              <h4 class="white no-padding">Quick Links</h4>
+            </div>
+            <div class="info-sec">
+              <ul class="quick-info">
+                <li><a href="index.html"><i class="fa fa-circle"></i>Home</a></li>
+                <li><a href="#service"><i class="fa fa-circle"></i>Service</a></li>
+                <li><a href="#contact"><i class="fa fa-circle"></i>Appointment</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-4 marb20">
+            <div class="ftr-tle">
+              <h4 class="white no-padding">Follow us</h4>
+            </div>
+            <div class="info-sec">
+              <ul class="social-icon">
+                <li class="bglight-blue"><i class="fa fa-facebook"></i></li>
+                <li class="bgred"><i class="fa fa-google-plus"></i></li>
+                <li class="bgdark-blue"><i class="fa fa-linkedin"></i></li>
+                <li class="bglight-blue"><i class="fa fa-twitter"></i></li><br><b>@MedilabHealthCareTeam</b>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer-line">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 text-center">
+            © Copyright Medilab HealthCare Team 2019. All Rights Reserved<br>@smartprince_kevoh2019<br>
+            <div class="credits">
+            
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!--/ footer-->
+
+  <script src="js/jquery.min.js"></script>
+  <script src="js/jquery.easing.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/custom.js"></script>
+  <script src="contactform/contactform.js"></script>
+
+</body>
+
+</html>
